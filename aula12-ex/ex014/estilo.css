@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body{
-  background-color: mediumturquoise;
+  background-color: rgb(213, 196, 48);
 }
 
 header{
@@ -16,6 +20,11 @@ section{
   width: 450px;
   margin: auto;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.384);
+}
+
+div{
+  text-align: center;
+  padding: 10px;
 }
 
 footer{
