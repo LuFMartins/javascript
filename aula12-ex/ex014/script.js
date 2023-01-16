@@ -14,7 +14,7 @@ function carregar(){
     document.body.style.background = 'rgb(172, 99, 27)';
   } else {
     img.src = "imagens/noite.png";
-    document.body.style.background = 'rgb(27, 43, 90)';
     window.alert('Boa Noite!');
+    document.body.style.background = 'rgb(27, 43, 90)';
   }
 }
