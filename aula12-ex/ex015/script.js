@@ -9,7 +9,6 @@ function verificar(){
     
     var fsex = document.getElementsByName('txtsex');
     var idade = ano - Number(fano.value);
-    res.innerHTML = `idade calculada: ${idade}`;
     var genero = '';
     var img = document.createElement('img');
     img.setAttribute('id', 'foto');
@@ -48,7 +47,7 @@ function verificar(){
       }
     }
     res.style.textAlign = 'center';
-    res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
-    res.appendChild(img)
+    res.innerHTML = `Detectamos ${genero} com ${idade} anos.`;
+    res.appendChild(img);
   }
 }
